@@ -1,0 +1,65 @@
+#background {
+	background: #1C6EA4;
+background: -webkit-linear-gradient(arriba, #1C6EA4 0%, #2388CB 38%, #144E75 100%);
+background: linear-gradient(to right, #1C6EA4 0%, #2388CB 38%, #144E75 100%);
+}
+#Curriculum {
+	font-size: 100px;
+	font-family: 'Oleo Script', cursive;
+	text-align: center;
+	font-weight:bold;
+	color: rgb(255, 255, 255);
+}
+#texto_comun {
+	font-family: 'Palanquin', sans-serif;
+	text-align: left;
+	font-weight:light;
+	color: rgb(0, 0, 0);
+}
+#titulos {
+	font-family: 'Palanquin', sans-serif;
+	text-align: left;
+	font-weight:light;
+	color: rgb(255, 255, 255);
+}
+#texto_general {
+	font-family: 'Palanquin', sans-serif;
+	text-align: left;
+	font-weight:normal;
+	font-size: large;
+	color: rgb(255, 255, 255);
+	margin-top: 0%, 0%, 0%, 0%;
+}
+#Nuevo_formato {
+	font-size: smaller;
+}
+
+.caja { 
+	float: left;
+	font-family: 'Palanquin', sans-serif; 
+	font-size: 26px; 
+	font-weight: 400; 
+	color: #000000; 
+	background:#ffffff;
+	margin: 0, 0, 25px;
+	overflow: hidden;
+	padding: 5px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 2px solid #5878ca;
+}
+
+.columna {
+	float: left;
+	padding: 15px;
+}
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .menu {
+	width: 25%;
+  }
